@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* input colors */
+input{
+    background-color: #ffffff;
+    accent-color: red;
+    border: 1px solid #ccc;
+    color: #333
+}
