@@ -1,86 +1,154 @@
-# React + Vite + Tailwind Starter Template
+# Techora
 
-A clean starter template for building React applications using Vite and Tailwind CSS v4.
+> **Discover, Upgrade, Connect.**
 
-## Features
+Techora is a modern tech products e-commerce web application built with React and Tailwind CSS. It provides a complete shopping experience with live product data, authentication, product discovery, filtering, product details, cart management, and checkout UI.
 
-* React 19
-* Vite 8
-* Tailwind CSS v4
-* ESLint Configuration
-* Fast Development Server
-* Clean Project Structure
+## 🚀 Live Demo
 
-## Getting Started
+🔗 **Coming soon — Firebase deployment**
 
-### Clone the Repository
+## ✨ Features
 
-```bash
-git clone <your-repository-url>
-cd react-vite-tailwind-template
-```
+- 🏠 Modern and responsive homepage
+- 🛍️ Live tech product data fetched from DummyJSON API
+- 🔐 Google authentication using Clerk
+- 🧭 Navigation between Home, Products, About, and Contact pages
+- 🎠 Product carousel with live API data
+- 🔎 Product search
+- 🏷️ Filter products by category and brand
+- 💰 Price range filtering
+- 🔄 Reset filters
+- 📄 Pagination for product listings
+- 🧾 Detailed single-product page
+- 🛒 Add products to cart
+- 📦 Cart management
+- 💳 Billing and checkout section
+- 📍 Delivery address section
+- 🔔 Toast notifications
+- ✨ Lottie animations
+- 📱 Responsive UI
+- 🧩 Reusable React components
+- 🌐 Context API for state management
+- 🦶 Consistent navbar and footer across pages
 
-### Install Dependencies
+## 🖥️ Pages
 
-```bash
-npm install
-```
+### 🏠 Home
 
-### Start Development Server
+The homepage features a modern navbar, live product carousel, technology/feature sections, promotional content, and a common footer.
 
-```bash
-npm run dev
-```
+### 🛍️ Products
 
-### Build for Production
+The products page provides a complete product browsing experience with:
 
-```bash
-npm run build
-```
+- Category filtering
+- Brand filtering
+- Price range filtering
+- Product search
+- Reset filters
+- Product cards
+- Pagination
 
-### Preview Production Build
+### 📦 Single Product
 
-```bash
-npm run preview
-```
+Users can click on any product to view its complete details and add it to the cart.
 
-## Project Structure
+### 🛒 Cart
+
+The cart page displays selected products along with:
+
+- Cart items
+- Product pricing
+- Billing details
+- Delivery address
+- Checkout section
+
+### ℹ️ About
+
+A modern static page describing Techora and its purpose.
+
+### 📞 Contact
+
+A dedicated contact page with a modern and responsive UI.
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+
+### API & State Management
+
+- DummyJSON API
+- Axios
+- Context API
+
+### Authentication
+
+- Clerk
+
+### Libraries
+
+- React Slick
+- React Toastify
+- Lottie React
+- Lucide React
+- React Icons
+
+## 🔌 API
+
+Techora currently uses the DummyJSON Products API to fetch live product information.
+
+**API:** https://dummyjson.com/products
+
+The application retrieves information such as:
+
+- Product images
+- Product names
+- Descriptions
+- Brands
+- Categories
+- Prices
+- Ratings
+- Product details
+
+## 🔐 Authentication
+
+Authentication is implemented using Clerk with Google Sign-In.
+
+After signing in, the user's Google profile is displayed in the navbar and the Sign In button is replaced with the user's profile control.
+
+## 📁 Project Structure
 
 ```text
-src/
-├── App.jsx
-├── index.css
-└── main.jsx
-
-public/
-
-vite.config.js
-package.json
+Techora/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
 ```
 
-## Tailwind Setup
+## 📄 License
 
-The project uses Tailwind CSS v4.
+© 2026 L.K Gupta. All Rights Reserved.
 
-`src/index.css`
+This project is created for educational and portfolio purposes.
+The source code, design, and content may not be copied, modified, or redistributed without permission.
 
-```css
-@import "tailwindcss";
-```
+---
 
-## How to Use This Template
-
-1. Clone or copy this template.
-2. Rename the project folder.
-3. Run:
-
-```bash
-npm install
-npm run dev
-```
-
-4. Start building your application.
-
-## License
-
-Free to use for personal and educational projects.
+⭐ If you like this project, feel free to explore the repository and try the live demo.
