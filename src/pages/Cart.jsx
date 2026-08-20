@@ -51,26 +51,26 @@ const Cart = ({location, getLocation}) => {
                   <h1 className='text-gray-800 text-xl font-bold'>Delivery Info</h1>
                   <div className='flex flex-col space-y-1'>
                     <label>Full Name</label>
-                    <input type='text' placeholder='Enter your name' className='p-2 rounded-md' value={user.fullName} />
+                    <input type='text' placeholder='Enter your name' className='p-2 rounded-md' value={user?.fullName} />
                   </div>
                   <div className='flex flex-col space-y-1'>
                     <label>Address</label>
-                    <input type='text' placeholder='Enter your address' className='p-2 rounded-md' value={location.state_district|| location.county}/>
+                    <input type='text' placeholder='Enter your address' className='p-2 rounded-md' value={location?.state_district|| location?.county}/>
                   </div>
                   <div className='flex w-full gap-5'>
                     <div className='flex flex-col space-y-1 w-full'>
                       <label>State</label>
-                      <input type='text' placeholder='Enter your State' className='p-2 rounded-md w-full' value={location.state}/>
+                      <input type='text' placeholder='Enter your State' className='p-2 rounded-md w-full' value={location?.state}/>
                     </div>
                     <div className='flex flex-col space-y-1 w-full'>
                       <label>PinCode</label>
-                      <input type='text' placeholder='Enter your Postcode' className='p-2 rounded-md w-full' value={location.postcode}/>
+                      <input type='text' placeholder='Enter your Postcode' className='p-2 rounded-md w-full' value={location?.postcode}/>
                     </div>
                   </div>
                   <div className='flex w-full gap-5'>
                     <div className='flex flex-col space-y-1 w-full'>
                       <label>Country</label>
-                      <input type='text' placeholder='Enter your Country' className='p-2 rounded-md w-full' value={location.country}/>
+                      <input type='text' placeholder='Enter your Country' className='p-2 rounded-md w-full' value={location?.country}/>
                     </div>
                     <div className='flex flex-col space-y-1 w-full'>
                       <label>Phone no.</label>

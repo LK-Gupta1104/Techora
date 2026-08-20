@@ -72,7 +72,6 @@ const Navbar = ({location, getLocation}) => {
           </Link>
 
           <Show when="signed-out">
-            {/* <SignInButton className='bg-red-500 text-gray-800 font-bold px-3 py-1 rounded-md cursor-pointer'/> */}
             <SignInButton className='bg-red-500 text-gray-800 font-bold px-3 py-1 rounded-md cursor-pointer'/>
           </Show>
           <Show when="signed-in">
