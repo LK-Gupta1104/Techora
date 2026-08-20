@@ -6,7 +6,7 @@ Techora is a modern tech products e-commerce web application built with React an
 
 ## 🚀 Live Demo
 
-🔗 **(https://techora-c5c06.web.app/)**
+🔗 **Techora : https://techora-c5c06.web.app/**
 
 ## ✨ Features
 
